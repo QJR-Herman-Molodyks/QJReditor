@@ -2,7 +2,7 @@
 
 ### Official QJReditor repository.
 
-**QJReditor** - C++ written CLI editor with GNU licence.
+**QJReditor** - C++ written CLI editor for Q-J-R with GNU licence.
 
 --------------------------
 
