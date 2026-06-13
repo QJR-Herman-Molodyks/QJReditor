@@ -145,7 +145,7 @@ static void draw(Editor& e) {
     // ── Title bar ──────────────────────────────────────────────────────────
     attron(A_REVERSE);
     mvhline(0, 0, ' ', cols);
-    std::string title = "  MiniEdit 1.0  |  " +
+    std::string title = "  QJReditor 1.0.1  |  " +
         (e.filename.empty() ? "[No Name]" : e.filename) +
         (e.modified ? " [modified]" : "");
     mvprintw(0, (cols - (int)title.size()) / 2, "%s", title.c_str());
@@ -191,7 +191,7 @@ static void draw(Editor& e) {
         mvprintw(rows - 1, 0, " %s", e.status_msg.c_str());
     } else {
         mvprintw(rows - 1, 0,
-            " ^S Save  ^W Search  ^X Exit  ^K Cut  ^U Paste  ^G Goto  Arrows Move");
+            "| ^X Exit | ^S Save | ^W Search | ^K Cut | ^U Paste | ^G Goto | Arrows Move |");
     }
     attroff(A_REVERSE);
 
