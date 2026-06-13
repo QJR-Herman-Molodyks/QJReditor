@@ -34,7 +34,7 @@ NOTE: To clean: make clean
 
 #### Ways: 
 
-3.1. ./qjreditor <filename>
+3.1. ./qjreditor filename
 
 3.2. ./qjreditor
 
