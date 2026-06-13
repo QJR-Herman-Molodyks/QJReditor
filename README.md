@@ -4,6 +4,8 @@
 
 **QJReditor** - C++ written CLI editor for Q-J-R with GNU licence.
 
+![QJReditor_image](images/QJReditor.png)
+
 --------------------------
 
 ### Installation and Usage:
