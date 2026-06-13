@@ -1,4 +1,4 @@
-# QJReditor - everything you need.
+# QJReditor - let's make, let's use!
 
 ### Official QJReditor repository.
 
